@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ikimashini/core/theme/theme.dart';
 import 'package:ikimashini/features/presentation/pages/home_page.dart';
+import 'package:ikimashini/features/presentation/pages/sign_up.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: appTheme(),
-      home: const HomePage(),
+      home:  HomePage(),
     );
   }
 }

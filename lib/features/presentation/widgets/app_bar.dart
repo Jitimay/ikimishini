@@ -46,7 +46,6 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
               onBackgroundImageError: (exception, stackTrace) {
                 print('Error loading image: $exception');
               },
-              child: const Icon(Icons.person, color: Colors.grey), // Fallback icon
             ),
           ],
         ),
